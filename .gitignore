@@ -1,0 +1,21 @@
+# Compiled / build output
+target/
+bin/
+out/
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse (in case anyone imports it that way)
+.classpath
+.project
+.settings/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+

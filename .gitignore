@@ -19,3 +19,7 @@ out/
 .DS_Store
 Thumbs.db
 
+
+# Secrets: never commit AWS keys or tokens
+*.pem
+.env

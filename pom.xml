@@ -34,6 +34,14 @@
     <build>
         <finalName>snake-game</finalName>
         <plugins>
+            <!-- Pin the compiler plugin so every Maven version (IntelliJ's and the
+                 Jenkins server's) honors maven.compiler.release=17 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
+
             <!-- Runs the JUnit tests during "mvn package" -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

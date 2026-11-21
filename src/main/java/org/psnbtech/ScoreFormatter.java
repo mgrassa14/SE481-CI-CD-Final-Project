@@ -8,8 +8,8 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class ScoreFormatter {
 
-	/** Pads a number with zeros to 5 digits, e.g. 75 -> "00075". */
+	/** Pads a number with zeros to 4 digits, e.g. 75 -> "0075". */
 	public static String format(int value) {
-		return StringUtils.leftPad(String.valueOf(value), 5, '0');
+		return StringUtils.leftPad(String.valueOf(value), 4, '0');
 	}
 }
